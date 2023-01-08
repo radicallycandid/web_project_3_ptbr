@@ -1,6 +1,6 @@
 .header {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 34px 0 90px;
+  padding: min(34px, calc((20 / 320) * 100vw)) 0
+    /* On a 320px-wide screen, this should be 20px */
+    min(90px, calc((50.15 / 320) * 100vw)); /* On a 320px-wide screen, this should be 50.15px */
+  text-align: center; /* This makes the image centered, since it's an inline element */
 }

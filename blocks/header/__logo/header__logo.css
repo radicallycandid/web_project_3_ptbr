@@ -1,4 +1,10 @@
 .header__logo {
-  width: 270px;
-  height: 70px;
+  width: min(
+    270px,
+    calc((200 / 320) * 100vw)
+  ); /* On a 320px screen, it should be 200px wide */
+  height: min(
+    70px,
+    calc((51.85 / 320) * 100vw)
+  ); /* Height should ajust accordingly */
 }

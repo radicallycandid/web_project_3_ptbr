@@ -1,9 +1,7 @@
 .lead__image {
-  text-align: center;
-  color: #ffffff;
-  width: min(984px, 100%);
-  height: 615px;
-  margin: 0 auto;
-  padding: 0;
-  object-fit: contain;
+  width: min(984px, 100vw);
+  height: min(
+    615px,
+    calc((615 / 984) * 100vw)
+  ); /* This makes it responsive and preserves the aspect ratio, but it is a good way to do it? */
 }
