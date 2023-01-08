@@ -1,10 +1,15 @@
 .lead__title {
   color: #ffffff;
   font-weight: 900;
-  font-size: 96px;
-  line-height: 1.04;
-  text-align: center;
-  width: 793px;
+  font-size: min(
+    96px,
+    12.5vw
+  ); /* On a 320px-wide screen, this should be 40px */
+  line-height: min(
+    100px,
+    13.75vw
+  ); /* On a 320px-wide screen, this should be 44px */
+  width: min(793px, 90vw); /* On a 320px-wide screen, this should be 288px */
   margin: 0 0 32px;
-  padding: 0;
+  text-align: center;
 }
