@@ -1,9 +1,5 @@
 .page {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
   font-family: "Inter Web", Arial, sans-serif;
   color: #ffffff;
   background-color: #2a2c2f;
-  box-sizing: border-box;
 }
