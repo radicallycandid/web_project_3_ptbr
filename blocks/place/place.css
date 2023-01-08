@@ -1,0 +1,93 @@
+.place {
+  display: grid;
+  grid-template-columns: minmax(460px, 1fr) 484px;
+  grid-template-rows: minmax(76px, auto) 460px minmax(48px, auto);
+  grid-template-areas:
+    "title website"
+    "image content"
+    "buy-button content";
+  grid-gap: 48px 40px;
+  margin: 80px auto;
+  width: 984px;
+}
+
+.place__title {
+  grid-area: title;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  margin: 0;
+}
+
+.place__title_city_criccieth {
+  width: 484px;
+}
+
+.place__website {
+  grid-area: website;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.place__url-heading {
+  color: #aaaaaa;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 0 0 8px 0;
+}
+
+.place__artist {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 0;
+}
+
+.place__image {
+  grid-area: image;
+  width: 100%;
+  object-fit: contain;
+}
+
+.place__paragraphs {
+  grid-area: content;
+  height: auto;
+  overflow: visible;
+}
+
+.place__paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0 0 25px 0;
+}
+
+.place__paragraph:last-of-type {
+  margin: 0;
+}
+
+.place__buy-button {
+  grid-area: buy-button;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 355px;
+  height: 48px;
+  background-color: #0278fe;
+  border-radius: 4px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22px;
+  transition: background-color 0.5s;
+}
+
+.place__buy-button:hover {
+  background-color: #0063d2;
+}

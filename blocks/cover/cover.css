@@ -1,0 +1,76 @@
+.cover {
+  width: 100%;
+  height: 740px;
+  margin: 92px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__image {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 1184px;
+  object-fit: cover;
+}
+
+.cover__call-to-action {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  margin: 0 0 32px 0;
+  z-index: 1;
+}
+
+.cover__paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 0;
+  z-index: 1;
+}
+
+.cover__buy-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 191px;
+  height: 48px;
+  background-color: #0278fe;
+  border-radius: 4px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22px;
+  margin: 32px 0 0 0;
+  z-index: 1;
+  transition: background-color 0.5s;
+}
+
+.cover__overlay {
+  position: absolute;
+  top: 0;
+  height: 740px;
+  width: 100%;
+  max-width: 1184px;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.5s;
+}
+
+.cover__buy-button:hover {
+  background-color: #0063d2;
+}
+
+.cover__buy-button:hover + .cover__overlay {
+  opacity: 0.8;
+}
+
+.cover__overlay:hover {
+  opacity: 0.8;
+}

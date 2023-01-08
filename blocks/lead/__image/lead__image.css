@@ -1,8 +1,9 @@
 .lead__image {
   text-align: center;
   color: #ffffff;
-  width: 984px;
+  width: min(984px, 100%);
   height: 615px;
   margin: 0 auto;
   padding: 0;
+  object-fit: contain;
 }
