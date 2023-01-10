@@ -1,7 +1,7 @@
 .intro__title {
-  width: 1017px;
+  width: min(1017px, 93.75vw); /* Trying to make this more responsive */
   margin: 0;
   font-weight: 900;
-  font-size: 54px;
-  line-height: 1.07;
+  font-size: min(54px, calc((32 / 320) * 100vw));
+  line-height: min(58px, calc((35 / 320) * 100vw));
 }

@@ -1,4 +1,13 @@
 .intro {
-  width: min(984px, 100%);
-  margin: 92px auto;
+  width: min(984px, 93.75vw); /* Trying to make this more responsive */
+  margin-top: min(92px, calc(((88 - 44) / (768 - 320)) * 100vw + 12.5714px));
+  margin-right: auto;
+  margin-bottom: min(92px, calc(((64 - 38) / (768 - 320)) * 100vw + 19.4286px));
+  margin-left: auto;
+}
+
+@media screen and (max-width: 640px) {
+  .intro {
+    width: 90vw;
+  }
 }

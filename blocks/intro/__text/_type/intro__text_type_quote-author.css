@@ -1,6 +1,12 @@
 .intro__text_type_quote-author {
   font-size: 24px;
-  line-height: 1.42;
+  line-height: calc(34 / 24);
   text-align: right;
-  margin: -24px 0 32px 0;
+  margin-top: min(
+    10px,
+    max(-24px, calc(34.2857px + 100vw * ((-24 - 10) / (768 - 320))))
+  );
+  margin-right: 0;
+  margin-bottom: min(32px, calc((18 / 320) * 100vw));
+  margin-left: 0;
 }
