@@ -1,7 +1,4 @@
 .lead__image {
   width: min(984px, 100vw);
-  height: min(
-    615px,
-    calc((615 / 984) * 100vw)
-  ); /* This makes it responsive and preserves the aspect ratio, but it is a good way to do it? */
+  height: min(615px, calc((615 / 984) * 100vw));
 }

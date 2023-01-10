@@ -1,15 +1,9 @@
 .lead__title {
   color: #ffffff;
   font-weight: 900;
-  font-size: min(
-    96px,
-    12.5vw
-  ); /* On a 320px-wide screen, this should be 40px */
-  line-height: min(
-    100px,
-    13.75vw
-  ); /* On a 320px-wide screen, this should be 44px */
-  width: min(793px, 90vw); /* On a 320px-wide screen, this should be 288px */
+  font-size: min(96px, 12.5vw);
+  line-height: min(100px, 13.75vw);
+  width: min(793px, 90vw);
   margin: 0 0 32px;
   text-align: center;
 }
