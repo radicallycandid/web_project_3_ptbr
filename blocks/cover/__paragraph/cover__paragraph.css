@@ -1,0 +1,17 @@
+.cover__paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 544px) {
+  .cover__paragraph {
+    font-weight: 400;
+    font-size: calc((14 / 320) * 100vw);
+    line-height: calc(16 / 14);
+    margin: 0;
+    z-index: 1;
+  }
+}

@@ -1,0 +1,17 @@
+.cover__call-to-action {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  margin: 0 0 32px 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 544px) {
+  .cover__call-to-action {
+    font-weight: 900;
+    font-size: 10vw;
+    line-height: calc(35 / 32);
+    margin: 0 0 5vw 0;
+    z-index: 1;
+  }
+}
