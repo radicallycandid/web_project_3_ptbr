@@ -1,4 +1,15 @@
 .photo-grid__item {
-  width: 284px;
-  height: 213px;
+  width: min(284px, calc((284 / 1280) * 100vw));
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid__item {
+    width: calc((352 / 768) * 100vw);
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .photo-grid__item {
+    width: calc((288 / 320) * 100vw);
+  }
 }
