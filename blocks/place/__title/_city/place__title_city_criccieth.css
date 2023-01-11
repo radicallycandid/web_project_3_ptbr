@@ -1,0 +1,3 @@
+.place__title_city_criccieth {
+  width: min(484px, calc((352 / 768) * 100vw));
+}

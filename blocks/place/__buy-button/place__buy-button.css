@@ -1,0 +1,28 @@
+.place__buy-button {
+  grid-area: buy-button;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: min(355px, calc((355 / 768) * 100vw));
+  height: min(48px, calc((48 / 768) * 100vw));
+  background-color: #0278fe;
+  border-radius: 4px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: max(14px, min(18px, calc((18 / 768) * 100vw)));
+  line-height: calc(22 / 18);
+  transition: background-color 0.5s;
+}
+
+.place__buy-button:hover {
+  background-color: #0063d2;
+}
+
+@media screen and (max-width: 544px) {
+  .place__buy-button {
+    width: 288px;
+    height: 48px;
+    margin: 0 auto;
+  }
+}
