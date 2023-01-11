@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/fonts.css); /* Inter Web */
+@import url(../fonts/Inter-Web/inter.css);
 @import url(../blocks/page/page.css);
 
 /* Header */
@@ -24,8 +24,7 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
-/* Places and Place */
-@import url(../blocks/placs/places.css);
+/* Place */
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__title/_city/place__title_city_criccieth.css);
