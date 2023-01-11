@@ -19,7 +19,3 @@
 .cover__buy-button:hover {
   background-color: #0063d2;
 }
-
-.cover__buy-button:hover + .cover__overlay {
-  opacity: 0.8;
-}

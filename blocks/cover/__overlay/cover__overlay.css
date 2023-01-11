@@ -3,12 +3,11 @@
   top: 0;
   height: 100%;
   width: 100%;
-  max-width: 1184px;
   background-color: #2a2c2f;
   opacity: 0.3;
   transition: opacity 0.5s;
 }
 
-.cover__overlay:hover {
+.cover:hover .cover__overlay {
   opacity: 0.8;
 }
